@@ -12,35 +12,35 @@
 
 **III.Background Knowledge**
 
-​	A.Brief Introduction of SDN
-​	B.Brief Introduction of Traditional Network Experiment Methods
+- A.Brief Introduction of SDN
+- B.Brief Introduction of Traditional Network Experiment Methods
 
 **IV.Overview of SDN Testbeds**
 
-​	A.Advantages of SDN Testbeds Over Traditional Network Experiment Methods
-​	B.Design Issues of Large-Scale SDN Testbeds
-​	C.Key Technologies of Large-Scale SDN Testbeds
+- A.Advantages of SDN Testbeds Over Traditional Network Experiment Methods
+- B.Design Issues of Large-Scale SDN Testbeds
+- C.Key Technologies of Large-Scale SDN Testbeds
 
 **V.Different Large-Scale SDN Testbeds Implementations**
 
-​	A.GENI OpenFlow
-​	B.OFELIA
-​	C.RISE
-​	D.OF@TEIN
-​	E.OpenLab
+- A.GENI OpenFlow
+- B.OFELIA
+- C.RISE
+- D.OF@TEIN
+- E.OpenLab
 
 **VI.Comparison of SDN Testbeds**
 
-​	A.Design Objectives	
-​	B.Key Technologies
-​	C.Network Deployment
-​	D.Experiments
+- A.Design Objectives	
+- B.Key Technologies
+- C.Network Deployment
+- D.Experiments
 
 **VII.Challenges and Future Works**
 
-​	A.Federation
-​	B.Slicing
-​	C.Compatibility with Existing Network Equipment
+- A.Federation
+- B.Slicing
+- C.Compatibility with Existing Network Equipment
 
 **VIII.Conclusion**
 
