@@ -368,3 +368,48 @@ RISE 3.0：引入了拓扑虚拟化层，通过MAC地址重写实现了逻辑路
 
 ![](https://github.com/Wasdns/Large-Scale-SDN-Testbeds-ZH/blob/master/figures/fig23.png)
 
+#### D.OF@TEIN
+
+**1)Design Objectives and Development：**
+
+OF@TEIN是韩国政府通过NIA(国家信息社会机构)捐赠的e-TEIN项目中的一个子项目，发布于2012年7月。**它的目的在于在TEIN4网络上逐渐建立和操作一个支持OpenFlow的SDN测试平台**。OF@GEIN是由韩国各大高校和国际的合作站点共同建立的，由GIST领导。
+
+**OF@GEIN的设计专注于三个任务：设计SmartX Racks并做验证、站点部署并做内部连接、开发有用的SDN工具**。至今，OF@TEIN实现了这些目标，但是它不开放，事实上可以通过NREN 国家研究和教育网络访问。
+
+**2)Key Technologies：**
+
+> a)Management Technologies：
+
+基于OFELIA控制架构，OF@TEIN开发了OF@TEIN接入口，它提供了实验的UI来创建切片和监控实验状态。通过接入口的接口，聚合了SmartX Rack和网络资源来服务于实验，记录流空间的资源以切片网络。特别地，OF@TEIN建立了SmartX自动中心来管理架构。
+
+**OF@TEIN实验的周期由三个阶段组成：设置、执行和结束**：
+
+- 设置：用户通过接入口设置实验，接入口提供实验UI以创建切片和观察实验状态；
+- 执行：用户登录并执行实验；
+- 结束：用户结束实验并释放资源。
+
+> b)Network Technologies：
+
+![](https://github.com/Wasdns/Large-Scale-SDN-Testbeds-ZH/blob/master/figures/fig24.png)
+
+- 基于可感知OpenFlow的封装节点，并使用NVGRE隧道实现站点间互联。
+- 设计SmartX Racks并部署与每一个OF@TEIN的站点，加速与TEIN NRENs内部的协作。
+- OF@TEIN站点之间使用NVGRE隧道互联。
+- OF@TEIN的控制和管理网络被设计为一种带外的overlay网。
+- 除了OpenFlow，OVSDB也被OF@TEIN的管理者们使用。
+
+> c)Slicing Technologies：
+
+[fig24]
+
+使用FlowVisor来切片网络，基于VLAN的切片架构。flowspace包括DPID和PortID。
+
+**3)Network Deployment：**
+
+![](https://github.com/Wasdns/Large-Scale-SDN-Testbeds-ZH/blob/master/figures/fig25.png)
+
+**4)Experiments：**
+
+实现的实验包括OVSDB配置实验：使用OVSDB完成隧道部署，和自动化带宽测量实验。
+
+![](https://github.com/Wasdns/Large-Scale-SDN-Testbeds-ZH/blob/master/figures/fig26.png)
