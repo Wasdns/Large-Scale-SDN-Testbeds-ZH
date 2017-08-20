@@ -319,7 +319,7 @@ Japan NICT在2009年，于JGN-X的基础上搭建了用于大规模网络实验�
 
 > c)RISE 3.0
 
-![fig20](/Users/wasdns/Desktop/Large-Scale SDN Testbeds/fig20.png)
+![](https://github.com/Wasdns/Large-Scale-SDN-Testbeds-ZH/blob/master/figures/fig20.png)
 
 **2.Key Technologies**：
 
@@ -354,15 +354,17 @@ RISE 2.0：实现了虚拟交换机实例，最多能同时提供16个不同的�
 
 RISE 3.0：引入了拓扑虚拟化层，通过MAC地址重写实现了逻辑路径以弥补JGN-X的物理路径。但是仍然有排错等问题。
 
-![fig21](/Users/wasdns/Desktop/Large-Scale SDN Testbeds/fig21.png)
+![](https://github.com/Wasdns/Large-Scale-SDN-Testbeds-ZH/blob/master/figures/fig21.png)
 
 **3)Network Deployment**：
 
-现在RISE已经在日本的十个站点部署了。![fig22](/Users/wasdns/Desktop/Large-Scale SDN Testbeds/fig22.png)
+现在RISE已经在日本的十个站点部署了。
+
+![](https://github.com/Wasdns/Large-Scale-SDN-Testbeds-ZH/blob/master/figures/fig22.png)
 
 **4)Experiments**：
 
 部署有视频流量实验(in Sapporo snow festival)和光场景。详见论文。
 
-![fig23](/Users/wasdns/Desktop/Large-Scale SDN Testbeds/fig23.png)
+![](https://github.com/Wasdns/Large-Scale-SDN-Testbeds-ZH/blob/master/figures/fig23.png)
 
