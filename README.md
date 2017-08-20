@@ -1,10 +1,10 @@
 # Large-Scale-SDN-Testbeds-ZH
 
-### A Survey on Large-Scale Software Defined Networking (SDN) Testbeds: Approaches and Challenges
+## A Survey on Large-Scale Software Defined Networking (SDN) Testbeds: Approaches and Challenges
 
-#### Structure:
+### Structure:
 
-**Abstract**
+#### Abstract
 
 **I.Introduction**
 
@@ -44,17 +44,17 @@
 
 **VIII.Conclusion**
 
-#### Abstract
+### Abstract
 
 本文是对SDN测试平台的综述，介绍了SDN测试平台的北京以及相关知识，接着介绍了SDN测试平台的Overview。此外介绍了五种典型的大规模SDN测试平台，并将它们进行了深度的对比。最后，介绍了SDN测试平台的挑战及未来工作。
 
-#### I.Introduction
+### I.Introduction
 
 传统网络面临挑战，SDN的出现为解决传统网络的问题带来了新的转机。为验证网络设计和算法的性能，实现了大规模的SDN测试平台。研究人员设想这些实验平台将是下一代互联网络的温床。大部分的测试平台是基于OpenFlow的，这些平台有美国的GENI，欧洲的OFELIA、OpenLab，日本的RISE以及南朝鲜的OF@TEIN。这些SDN测试平台为未来网络研究做出了积极的贡献。
 
 本文对大规模的SDN测试平台进行了详细的说明，展示了设计目标、关键技术、网络部署以及实验，此外，我们对大规模SDN测试平台面临的挑战进行了探讨。
 
-#### II.Related Works
+### II.Related Works
 
 介绍了现有SDN领域的综述论文。包括：
 
@@ -69,11 +69,11 @@
 - NV methods
 - Virtualization approaches in wireless network
 
-#### III.Background Knowledge
+### III.Background Knowledge
 
-##### A.Brief Introduction of SDN
+#### A.Brief Introduction of SDN
 
-##### B.Brief Introduction of Traditional Network Experiment Methods
+#### B.Brief Introduction of Traditional Network Experiment Methods
 
 研究人员使用模拟器、仿真器以及网络测试平台对新型网络设计和算法进行验证。模拟器(eg.NS2/NS3)基于网络拓扑和特征建立对应的模拟环境。仿真平台(eg.Emulab)使用虚拟化服务器集群基于软件来模拟分布式网络和真实的流量。
 
@@ -83,11 +83,11 @@
 
 相比于模拟器，网络测试平台对于网络实验来说更加方便，因为**使用了真实的网络流量**；相比于仿真平台，网络测试平台**使硬件网络设备参与了进来，并且能够在产品网络上运行，提供高性能和可拓展性**。但是这些平台中，传统的网络设备的控制过于封闭，这降低了实验的灵活性和自动化。
 
-![table2](/Users/wasdns/Desktop/table2.png)
+[table2]
 
-#### Overview of SDN Testbeds
+### Overview of SDN Testbeds
 
-##### A.Advantages of SDN Testbeds Over Traditional Network Experiment Methods
+#### A.Advantages of SDN Testbeds Over Traditional Network Experiment Methods
 
 SDN改变了传统网络的模式和运行机制，在网络测试平台中应用SDN的方法，特别是OpenFlow，能够完美解决不灵活和不高效的自动化问题：
 
@@ -97,7 +97,7 @@ SDN改变了传统网络的模式和运行机制，在网络测试平台中应�
 
 至今，大规模的SDN测试平台已经在许多国家应用，并促进了创新的发展。
 
-##### B.Design Issues of Large-Scale SDN Testbeds
+#### B.Design Issues of Large-Scale SDN Testbeds
 
 大规模的SDN测试平台设计包括几个理论上和实际上的方面，在设计这些平台的时候，需要谨慎考虑这些问题。
 
@@ -131,11 +131,11 @@ SDN改变了传统网络的模式和运行机制，在网络测试平台中应�
 
   **SDN测试平台中的切片工具通常被称为网络的hypervisor。**
 
-#### V.Different Large-Scale SDN Testbeds Implementations
+### V.Different Large-Scale SDN Testbeds Implementations
 
 该部分会对五个典型的大规模SDN测试平台从以下四个方面进行介绍：(1)Design Objectives and Development：测试平台的Overview；(2)Key Technologies：管理、网络以及切片技术的介绍；(3)Network Deployment：测试平台的实现；(4)Experiment：介绍了已执行的SDN实验。
 
-##### A.GENI OpenFlow
+#### A.GENI OpenFlow
 
 **1.Design Objectives and Development**：
 
@@ -222,7 +222,7 @@ Stanford University Deployment：
 
 [fig12]
 
-##### B.OFELIA
+#### B.OFELIA
 
 **1.Design Objectives and Development**：
 
@@ -299,7 +299,7 @@ OpenFlow-GMPLS：OF控制器与传统光设备相整合的架构。
 
 [fig19]
 
-##### C.RISE
+#### C.RISE
 
 **1.Design Objectives and Development**：
 
