@@ -390,8 +390,6 @@ OF@TEIN是韩国政府通过NIA(国家信息社会机构)捐赠的e-TEIN项目�
 
 > b)Network Technologies：
 
-![](https://github.com/Wasdns/Large-Scale-SDN-Testbeds-ZH/blob/master/figures/fig24.png)
-
 - 基于可感知OpenFlow的封装节点，并使用NVGRE隧道实现站点间互联。
 - 设计SmartX Racks并部署与每一个OF@TEIN的站点，加速与TEIN NRENs内部的协作。
 - OF@TEIN站点之间使用NVGRE隧道互联。
@@ -400,7 +398,7 @@ OF@TEIN是韩国政府通过NIA(国家信息社会机构)捐赠的e-TEIN项目�
 
 > c)Slicing Technologies：
 
-[fig24]
+![](https://github.com/Wasdns/Large-Scale-SDN-Testbeds-ZH/blob/master/figures/fig24.png)
 
 使用FlowVisor来切片网络，基于VLAN的切片架构。flowspace包括DPID和PortID。
 
