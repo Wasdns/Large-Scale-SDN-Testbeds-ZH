@@ -2,9 +2,7 @@
 
 ## A Survey on Large-Scale Software Defined Networking (SDN) Testbeds: Approaches and Challenges
 
-### Structure:
-
-#### Abstract
+## Structure:
 
 **I.Introduction**
 
@@ -416,7 +414,7 @@ OF@TEIN是韩国政府通过NIA(国家信息社会机构)捐赠的e-TEIN项目�
 
 **1)Design Objectives and Development：**
 
-**OpenLab是一个FP7网络研究项目，致力于将现有的测试平台打造为开放、可拓展并可持续的网络架构，同时也为早期的、应用于未来网络研究的网络原型或者系统提供支持。**OpenLab始于2011年的九月，这个项目和一个多样化的应用和网络协议集在分支测试平台上部署于硬件和软件。SDN的方法，比如OpenFlow，已经引入该测试平台，现在它在无线和光领域都SDN化了。OpenLab现在通过OneLab接入口开放，不过有些节点不能使用。
+**OpenLab是一个FP7网络研究项目，致力于将现有的测试平台打造为开放、可拓展并可持续的网络架构，同时也为早期的、应用于未来网络研究的网络原型或者系统提供支持**。OpenLab始于2011年的九月，这个项目和一个多样化的应用和网络协议集在分支测试平台上部署于硬件和软件。SDN的方法，比如OpenFlow，已经引入该测试平台，现在它在无线和光领域都SDN化了。OpenLab现在通过OneLab接入口开放，不过有些节点不能使用。
 
 **2)Key Technologies：**
 
